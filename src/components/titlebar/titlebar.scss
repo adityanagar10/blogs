@@ -1,0 +1,19 @@
+.titlebar{
+    background-color: black;
+    display: flex;
+    justify-content: space-between;
+    color: white;
+    padding: 1%;   
+    
+    .searchBar{
+        padding: 30px;
+        input{
+            padding: 10px 20px;
+            width: 100%;
+            margin: 0% 10%;
+            border: black 1px solid;
+            border-radius: 25px;
+            outline: none;
+        }
+    }
+}
