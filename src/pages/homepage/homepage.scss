@@ -1,17 +1,22 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+
 .homepageTitle{
     display: flex;
-    height: 500px;
+    overflow: hidden;
+    height: 810px;
     align-items: center;
     justify-content: center;
 
     .title{
-        font-size: 5rem;
+
+        font-size: 7rem;
         font-weight: 900;
-        margin: 7%;
+        margin: 10%;
+        font-family: 'Shadows Into Light', cursive;
     }
 
     .learnFromMe{
-        margin-top: 4%;
+        margin-top: 10%;
         padding: 25px;
         font-size: 2rem;
         background-color: black;
@@ -21,8 +26,9 @@
     }
 
     .learnFromMe:hover{
+        font-weight: bold;
         background-color: white;
-        border: black 1px solid;
+        border: black 3px solid;
         color: black;
     }
 }
